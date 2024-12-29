@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('Test Shared Library'){
             steps{
-            helloWorld()
+            helloWorld(name="Rafi", dayOfWeek="Sunday")
         }
         }
     }
