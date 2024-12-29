@@ -1,4 +1,4 @@
-@first_shared_library _
+@('first_shared_library') _
 pipeline{
     agent any
     stages{
