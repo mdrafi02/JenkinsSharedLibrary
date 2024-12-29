@@ -1,8 +1,8 @@
 pipeline{
     agent any
     stages{
-        stage{
-            steps('Test Shared Library'){
+        stage('Test Shared Library'){
+            steps{
             helloWorld()
         }
         }
